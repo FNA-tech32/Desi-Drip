@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 70" width="320" height="70">
+  <defs>
+    <linearGradient id="dripGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E76F51"/>
+      <stop offset="50%" stop-color="#F4A261"/>
+      <stop offset="100%" stop-color="#E9C46A"/>
+    </linearGradient>
+    <linearGradient id="cupGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#264653"/>
+      <stop offset="100%" stop-color="#1D3557"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Cup Icon -->
+  <g transform="translate(10, 10)">
+    <!-- Saucer -->
+    <ellipse cx="25" cy="46" rx="22" ry="4" fill="#E9C46A" opacity="0.8"/>
+    
+    <!-- Cup Body -->
+    <path d="M 8 16 L 12 38 C 13 42, 37 42, 38 38 L 42 16 Z" fill="url(#cupGrad)"/>
+    
+    <!-- Cup Handle -->
+    <path d="M 40 20 C 47 20, 47 34, 40 34" fill="none" stroke="#264653" stroke-width="3.5" stroke-linecap="round"/>
+    
+    <!-- Steam / Aroma Swirls -->
+    <path d="M 19 12 C 17 8, 21 4, 19 0" fill="none" stroke="url(#dripGrad)" stroke-width="2.2" stroke-linecap="round"/>
+    <path d="M 26 13 C 24 8, 28 5, 26 1" fill="none" stroke="url(#dripGrad)" stroke-width="2.2" stroke-linecap="round"/>
+    <path d="M 33 12 C 31 8, 35 4, 33 0" fill="none" stroke="url(#dripGrad)" stroke-width="2.2" stroke-linecap="round"/>
+
+    <!-- Coffee Drip Drop -->
+    <path d="M 25 24 C 23 27, 21 30, 25 33 C 29 30, 27 27, 25 24 Z" fill="url(#dripGrad)"/>
+  </g>
+
+  <!-- Text: DESI DRIP -->
+  <text x="68" y="38" font-family="'Tenali Ramakrishna', 'Josefin Sans', sans-serif" font-size="34" font-weight="bold" fill="#264653" letter-spacing="2">DESI DRIP</text>
+  
+  <!-- Subtitle: ARTISANAL CAFE & SPECIALTY BREWS -->
+  <text x="70" y="52" font-family="'Josefin Sans', sans-serif" font-size="9" font-weight="600" fill="#E76F51" letter-spacing="3.2">ARTISANAL CAFE &amp; TREATS</text>
+</svg>

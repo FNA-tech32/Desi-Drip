@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Desi Drip - Contemporary Artisanal Cafe featuring specialty drip coffee, authentic chai infusions, and delectable handcrafted treats.">
+  <meta name="keywords" content="Desi Drip, cafe, coffee, chai, artisanal cafe, bakery, desserts">
+  <title>Desi Drip | Artisanal Cafe &amp; Specialty Brews</title>
+  
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  
+  <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600;700&family=Tenali+Ramakrishna&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Fontawesome icon -->
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  
+  <!-- Animate on Scroll -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-sm" id="navbar">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="#carouselExampleIndicators">
+        <img src="images/desi-drip-logo.svg" alt="Desi Drip Logo" height="42">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#carouselExampleIndicators">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#menu">Menu</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Categories
+            </a>
+            <div class="dropdown-menu shadow" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#menu">Specialty Drips</a>
+              <a class="dropdown-item" href="#menu">Artisanal Chai</a>
+              <a class="dropdown-item" href="#menu">Signature Desserts</a>
+              <a class="dropdown-item" href="#menu">Savory Bites</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn-contact-nav" href="#contact">Contact &amp; Visit</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Carousel -->
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="5000">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item showcase active">
+        <img src="images/main01.jpeg" class="d-block w-100" alt="Desi Drip Artisanal Sweets & Specialty Brews">
+        <div class="carousel-caption d-none d-md-block">
+          <span class="badge badge-warning px-3 py-2 text-uppercase mb-2">Welcome to Desi Drip</span>
+          <h2>Artisanal Brews &amp; Fusion Delights</h2>
+          <p>Where Rich Desi Heritage Meets Contemporary Specialty Drips</p>
+        </div>
+      </div>
+
+      <div class="carousel-item showcase">
+        <img src="images/main02.jpg" class="d-block w-100" alt="Handcrafted treats at Desi Drip">
+        <div class="carousel-caption d-none d-md-block">
+          <span class="badge badge-warning px-3 py-2 text-uppercase mb-2">Signature Experience</span>
+          <h2>Slow Drips, Spiced Infusions &amp; Sweet Treats</h2>
+          <p>Crafted fresh every single day with premium authentic ingredients</p>
+        </div>
+      </div>
+      
+      <div class="carousel-item showcase">
+        <img src="images/main03.jpg" class="d-block w-100" alt="Desi Drip cozy cafe vibe">
+        <div class="carousel-caption d-none d-md-block">
+          <span class="badge badge-warning px-3 py-2 text-uppercase mb-2">Community &amp; Culture</span>
+          <h2>A Cozy Haven For Coffee &amp; Dessert Lovers</h2>
+          <p>Unwind, connect, and savor the unforgettable drip</p>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+  <!-- About Section -->
+  <section class="text-center about" id="about">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8" data-aos="fade-up" data-aos-duration="1000">
+          <span class="text-uppercase text-muted font-weight-bold letter-spacing-2">Our Story</span>
+          <h2 class="section-heading mt-2">What is Desi Drip?</h2>
+          <div class="heading-divider mx-auto mb-4"></div>
+          <p class="about-lead">
+            <strong>Desi Drip</strong> is a contemporary artisanal cafe celebrating the rich, vibrant heritage of South Asian coffee and tea traditions fused with modern specialty brewing.
+          </p>
+          <p class="about-text">
+            From our signature slow-drip single-origin coffees and aromatic spiced chai infusions to handcrafted plant-based pastries and gourmet fusion desserts, every creation is brewed with soul and served with warm hospitality. Whether you're grabbing your morning wake-up drip or catching up with friends over decadent treats, make sure you don't miss us!
+          </p>
+          
+          <div class="social-menu mt-4">
+            <ul>
+              <li><a href="https://instagram.com" target="_blank" title="Instagram" aria-label="Instagram"><i class="fa fa-instagram"></i></a></li>
+              <li><a href="https://twitter.com" target="_blank" title="Twitter" aria-label="Twitter"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="https://facebook.com" target="_blank" title="Facebook" aria-label="Facebook"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="https://wa.me/15553453747" target="_blank" title="WhatsApp Chat" aria-label="WhatsApp"><i class="fa fa-whatsapp"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Menu Cards Section -->
+  <section class="container explore py-5" id="menu">
+    <div class="text-center mb-4" data-aos="fade-up">
+      <span class="text-uppercase text-muted font-weight-bold">Handcrafted Selection</span>
+      <h2 class="section-heading">Explore Our Menu</h2>
+      <div class="heading-divider mx-auto"></div>
+      <p class="text-muted mt-2">Discover our seasonal specialties, savory bites, and handcrafted signature desserts</p>
+    </div>
+    
+    <div class="row" data-aos="fade-up" data-aos-duration="1000">
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-img-wrapper">
+            <img src="images/seasonal_limited.jpg" class="card-img-top" alt="Desi Drip Seasonal Specials">
+            <span class="badge badge-warning card-badge">Chef's Special</span>
+          </div>
+          <div class="card-body d-flex flex-column text-center">
+            <h3 class="card-text">Seasonal Limited</h3>
+            <p class="card-description text-muted">Special seasonal fruit tarts, spiced pumpkin halwa tarts, and limited batch cold drips.</p>
+            <div class="mt-auto">
+              <a href="#contact" class="btn btn-primary btn-block">Reserve / Order Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-img-wrapper">
+            <img src="images/food_bonbon.jpg" class="card-img-top" alt="Desi Drip Food and Savory Bites">
+            <span class="badge badge-info card-badge">Savory</span>
+          </div>
+          <div class="card-body d-flex flex-column text-center">
+            <h3 class="card-text">Savory &amp; Food Menu</h3>
+            <p class="card-description text-muted">Artisanal sourdough toasties, masala brioche buns, and wholesome plant-based grain bowls.</p>
+            <div class="mt-auto">
+              <a href="#contact" class="btn btn-light btn-block border"><i class="fa fa-download"></i> View &amp; Download</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-img-wrapper">
+            <img src="images/dessert.jpg" class="card-img-top" alt="Desi Drip Artisan Desserts">
+            <span class="badge badge-danger card-badge">Signature</span>
+          </div>
+          <div class="card-body d-flex flex-column text-center">
+            <h3 class="card-text">Desserts &amp; Drips</h3>
+            <p class="card-description text-muted">Gulab jamun cheesecake bites, pistachio cardamom mousse, and slow-dripped specialty brews.</p>
+            <div class="mt-auto">
+              <a href="#contact" class="btn btn-light btn-block border"><i class="fa fa-download"></i> View &amp; Download</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Visit Us / Contact Section with Primary & Alternative Details -->
+  <section class="visit-us py-5" id="contact">
+    <div class="container">
+      <div class="text-center mb-4" data-aos="fade-up">
+        <span class="text-uppercase font-weight-bold text-dark">Get in Touch</span>
+        <h2 class="section-heading text-dark">Contact Details &amp; Visit Us</h2>
+        <div class="heading-divider-dark mx-auto mb-2"></div>
+        <p class="contact-subtitle">Connect with Desi Drip via our primary cafe desk or through our alternative support channels.</p>
+      </div>
+
+      <div class="row align-items-stretch" data-aos="fade-up" data-aos-duration="800">
+        <!-- Contact Cards Column -->
+        <div class="col-lg-7 mb-4">
+          <!-- Primary Contact Details Card -->
+          <div class="card contact-detail-card mb-3 shadow-sm border-0">
+            <div class="card-header bg-white d-flex justify-content-between align-items-center border-bottom-0 pb-0 pt-3">
+              <h4 class="mb-0 text-dark"><i class="fa fa-building text-primary mr-2"></i> Primary Cafe Information</h4>
+              <span class="badge badge-primary px-3 py-1 text-uppercase">Primary</span>
+            </div>
+            <div class="card-body pt-2">
+              <ul class="list-group list-group-flush contact-list">
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                  <span class="contact-label"><i class="fa fa-phone mr-2 text-primary"></i> Main Hotline:</span>
+                  <span class="contact-val font-weight-bold">
+                    <a href="tel:+15557893747" class="text-dark">+1 (555) 789-DRIP</a>
+                    <span class="text-muted d-block small">(+1 555-789-3747)</span>
+                  </span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                  <span class="contact-label"><i class="fa fa-envelope mr-2 text-primary"></i> General Inquiries:</span>
+                  <span class="contact-val">
+                    <a href="mailto:hello@desidrip.com" class="text-primary font-weight-bold">hello@desidrip.com</a>
+                  </span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                  <span class="contact-label"><i class="fa fa-map-marker mr-2 text-danger"></i> Flagship Address:</span>
+                  <span class="contact-val text-right">
+                    124 Drip Boulevard, Midtown Cultural District<br>
+                    <span class="text-muted">New York, NY 10001</span>
+                  </span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                  <span class="contact-label"><i class="fa fa-clock-o mr-2 text-primary"></i> Operating Hours:</span>
+                  <span class="contact-val text-right">
+                    Mon &ndash; Fri: 08:00 AM &ndash; 10:30 PM<br>
+                    Sat &ndash; Sun: 09:00 AM &ndash; 11:30 PM
+                  </span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                  <span class="contact-label"><i class="fa fa-cutlery mr-2 text-primary"></i> Last Orders:</span>
+                  <span class="contact-val text-right">
+                    Food Kitchen: 21:45 &bull; Coffee &amp; Drinks: 22:15
+                  </span>
+                </li>
+              </ul>
+              <div class="mt-3 text-right">
+                <a href="tel:+15557893747" class="btn btn-sm btn-outline-primary mr-2"><i class="fa fa-phone"></i> Call Primary</a>
+                <a href="mailto:hello@desidrip.com" class="btn btn-sm btn-primary"><i class="fa fa-envelope"></i> Send Email</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Alternative Contact Details Card -->
+          <div class="card contact-detail-card shadow-sm border-0">
+            <div class="card-header bg-white d-flex justify-content-between align-items-center border-bottom-0 pb-0 pt-3">
+              <h4 class="mb-0 text-dark"><i class="fa fa-shield text-info mr-2"></i> Alternative Contact Details</h4>
+              <span class="badge badge-info px-3 py-1 text-uppercase">Alternative</span>
+            </div>
+            <div class="card-body pt-2">
+              <ul class="list-group list-group-flush contact-list">
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                  <span class="contact-label"><i class="fa fa-whatsapp mr-2 text-success"></i> WhatsApp &amp; Quick Orders:</span>
+                  <span class="contact-val font-weight-bold">
+                    <a href="https://wa.me/15553453747" target="_blank" class="text-success">+1 (555) 345-DRIP</a>
+                    <span class="text-muted d-block small">(Instant Messaging / Chat)</span>
+                  </span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                  <span class="contact-label"><i class="fa fa-envelope-o mr-2 text-info"></i> Alternative Order Email:</span>
+                  <span class="contact-val">
+                    <a href="mailto:orders@desidrip.com" class="text-info font-weight-bold">orders@desidrip.com</a>
+                  </span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                  <span class="contact-label"><i class="fa fa-calendar-check-o mr-2 text-info"></i> Catering &amp; Events:</span>
+                  <span class="contact-val">
+                    <a href="mailto:events@desidrip.com" class="text-info font-weight-bold">events@desidrip.com</a>
+                  </span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                  <span class="contact-label"><i class="fa fa-truck mr-2 text-info"></i> Alternative Pickup Hub:</span>
+                  <span class="contact-val text-right">
+                    Express Pickup Counter &bull; Suite 402<br>
+                    <span class="text-muted">Arts &amp; Market Walk, NY 10012</span>
+                  </span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                  <span class="contact-label"><i class="fa fa-shopping-bag mr-2 text-info"></i> Delivery Partners:</span>
+                  <span class="contact-val text-right">
+                    UberEats &bull; DoorDash &bull; Grubhub<br>
+                    <span class="badge badge-light border">Search: @DesiDrip</span>
+                  </span>
+                </li>
+              </ul>
+              <div class="mt-3 text-right">
+                <a href="https://wa.me/15553453747" target="_blank" class="btn btn-sm btn-success mr-2"><i class="fa fa-whatsapp"></i> WhatsApp Order</a>
+                <a href="mailto:orders@desidrip.com" class="btn btn-sm btn-outline-info"><i class="fa fa-paper-plane"></i> Catering Desk</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Google Map & Directions Column -->
+        <div class="col-lg-5 mb-4">
+          <div class="card map-card h-100 shadow-sm border-0">
+            <div class="card-header bg-white border-bottom-0 pt-3">
+              <h4 class="mb-0 text-dark"><i class="fa fa-compass text-danger mr-2"></i> Find Desi Drip</h4>
+              <p class="text-muted small mb-0">Visit our flagship cafe or pick up at our express counter.</p>
+            </div>
+            <div class="card-body p-2 d-flex flex-column">
+              <div class="map-container flex-grow-1">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.215573212879!2d-73.9774844!3d40.7527262!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25902263a233b%3A0x6b4f7a1f5fae7561!2sMidtown%20Manhattan%2C%20New%20York%2C%20NY!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus" width="100%" height="320" style="border:0; border-radius: 8px;" allowfullscreen="" aria-hidden="false" tabindex="0" title="Desi Drip Location Map"></iframe>
+              </div>
+              <div class="p-3 bg-light rounded mt-2">
+                <div class="d-flex justify-content-between align-items-center">
+                  <div>
+                    <h6 class="mb-0 font-weight-bold text-dark">Desi Drip Flagship Cafe</h6>
+                    <small class="text-muted">124 Drip Blvd, Midtown NY</small>
+                  </div>
+                  <a href="https://maps.google.com" target="_blank" class="btn btn-sm btn-danger"><i class="fa fa-location-arrow"></i> Get Directions</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer py-4 bg-dark text-white">
+    <div class="container text-center">
+      <div class="mb-3">
+        <img src="images/desi-drip-logo.svg" alt="Desi Drip Logo" height="36" style="filter: brightness(0) invert(1);">
+      </div>
+      <p class="mb-2 text-white-50">Desi Drip &copy; 2026. All Rights Reserved. Crafted with passion for flavor and community.</p>
+      <div class="attribution text-muted small">
+        Designed &amp; Coded with <i class="fa fa-heart text-danger"></i> by <a href="https://www.linkedin.com/in/shuyanliu/" target="_blank" class="text-white-50">Clementine Liu</a> &bull; Rebranded for <strong>Desi Drip</strong>
+      </div>
+    </div>
+  </footer>
+  
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  
+  <!-- AOS Animation js -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 800,
+      once: true
+    });
+  </script>
+</body>
+</html>
